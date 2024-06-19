@@ -8,7 +8,7 @@ export const data=[
         ans : 2
     },
     {
-        question:"Which Device is required for internet Connection",
+        question:"Which is main components of computer",
         option0:"Pen Drive"  ,
         option1:"Disk Drive",
         option2:"Router",
@@ -16,26 +16,26 @@ export const data=[
         ans : 1
     },
     {
-        question:"Which Device is required for internet Connection",
+        question:"Full form of SSD",
         option0:"Pen Drive"  ,
         option1:"Disk Drive",
-        option2:"Router",
-        option3:"Modem",
+        option2:"MOdem",
+        option3:"Router",
         ans : 3
     },
     {
-        question:"Which Device is required for internet Connection",
-        option0:"Pen Drive"  ,
+        question:"Which is Fastes Storage utin in computer",
+        option0:"router"  ,
         option1:"Disk Drive",
-        option2:"Router",
+        option2:"darive",
         option3:"Modem",
         ans : 0
     },
     {
-        question:"Which Device is required for internet Connection",
+        question:"which is the output device form option ",
         option0:"Pen Drive"  ,
         option1:"Disk Drive",
-        option2:"Router",
+        option2:"HIamnshu",
         option3:"Modem",
         ans : 2
     },
