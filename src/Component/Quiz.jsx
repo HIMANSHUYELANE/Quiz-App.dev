@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { data } from "../assets/data";
 export default function Quiz() {
-  const [index, setIndex] = useState(0);
+  let [index, setIndex] = useState(0);
   const [que, setQue] = useState(data[index]);
   const [lock, setLock] = useState(false);
   let option0 = useRef(null);
@@ -12,7 +12,6 @@ export default function Quiz() {
 
   function option(e, ans) {
     if (lock === false) {
-      console.log(ans);
       if (que.ans === ans) {
         e.target.classList.add("bg-green-300");
         setLock(true);
@@ -26,24 +25,28 @@ export default function Quiz() {
 
   function handleSubmit() {
     if (lock === true) {
-      setIndex(1 + index);
+      console.log(index)
+      setIndex(++index)
       setQue(data[index]);
       setLock(false);
       arr.map((ele)=>{
         ele.current.classList.remove("bg-green-300")
         ele.current.classList.remove("bg-red-300")
       })
+      // if(){
+
+      // }
     }
   }
   return (
     <div className="w-[40%]  mx-auto bg-white my-32">
       <div className="">
-        <h1 className="font-bold text-3xl text-center pt-3 my-2">Qhiz App</h1>
+        <h1 className="font-bold text-3xl text-center pt-3 my-2">Quiz App</h1>
       </div>
       <hr className="my-1" />
       <div className="mx-5">
         <p className=" my-1 font-medium text-lg">
-          {index}. {que.question}
+          {index+1}. {que.question}
         </p>
         <ul className="my-3 space-y-2">
           <li
@@ -93,7 +96,7 @@ export default function Quiz() {
         </div>
         <div>
           <p>
-            Question {index} out of {data.length}
+            Question {index+1} out of {data.length}
           </p>
         </div>
       </div>

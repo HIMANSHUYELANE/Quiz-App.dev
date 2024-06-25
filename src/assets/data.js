@@ -9,34 +9,34 @@ export const data=[
     },
     {
         question:"Which is main components of computer",
-        option0:"Pen Drive"  ,
-        option1:"Disk Drive",
-        option2:"Router",
-        option3:"Modem",
+        option0:"Keyboard"  ,
+        option1:"CPU",
+        option2:"Monitor",
+        option3:"Mouse",
         ans : 1
     },
     {
-        question:"Full form of SSD",
-        option0:"Pen Drive"  ,
-        option1:"Disk Drive",
-        option2:"MOdem",
-        option3:"Router",
+        question:"What is SSD",
+        option0:"Driver"  ,
+        option1:"Port",
+        option2:"Switch",
+        option3:"Memory",
         ans : 3
     },
     {
-        question:"Which is Fastes Storage utin in computer",
-        option0:"router"  ,
+        question:"Which is Fastest Storage unit in computer",
+        option0:"Register"  ,
         option1:"Disk Drive",
-        option2:"darive",
-        option3:"Modem",
+        option2:"RAM",
+        option3:"Cache",
         ans : 0
     },
     {
         question:"which is the output device form option ",
         option0:"Pen Drive"  ,
-        option1:"Disk Drive",
-        option2:"HIamnshu",
-        option3:"Modem",
-        ans : 2
+        option1:"Keyboard",
+        option2:"Scanner",
+        option3:"Monitor",
+        ans : 3
     },
 ]
