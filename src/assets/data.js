@@ -32,7 +32,7 @@ export const data=[
         ans : 0
     },
     {
-        question:"which is the output device form option ",
+        question:"which is the output device from option ",
         option0:"Pen Drive"  ,
         option1:"Keyboard",
         option2:"Scanner",
